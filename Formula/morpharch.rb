@@ -1,28 +1,28 @@
 class Morpharch < Formula
   desc "Monorepo architecture health visualizer with animated TUI"
   homepage "https://github.com/onplt/morpharch"
-  version "2.2.0"
+  version "2.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/onplt/morpharch/releases/download/v2.2.0/morpharch-macos-aarch64.tar.gz"
-      sha256 "cbc431f36534e5abf0a3985a00b1bc87ec923014d992e9b8e3dda1b23f60123b"
+      url "https://github.com/onplt/morpharch/releases/download/v2.2.1/morpharch-macos-aarch64.tar.gz"
+      sha256 "11c1b172a4f31a0a0a3920af436188d3814058ee4135322d95cfbed52902fe6e"
     end
     on_intel do
-      url "https://github.com/onplt/morpharch/releases/download/v2.2.0/morpharch-macos-x86_64.tar.gz"
-      sha256 "fdc4de4b2eece48e1435ad43ecaa991cab2a4af36a0908860a48001353f62271"
+      url "https://github.com/onplt/morpharch/releases/download/v2.2.1/morpharch-macos-x86_64.tar.gz"
+      sha256 "01683355073843fe2a6fdb2f15c7ab4532683da9b38ff4c7ec9a609bb65658b5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onplt/morpharch/releases/download/v2.2.0/morpharch-linux-aarch64.tar.gz"
-      sha256 "2c3a730f5806e656972f4faa195aa906a32d3f8b78d27ef0676059cb043e656a"
+      url "https://github.com/onplt/morpharch/releases/download/v2.2.1/morpharch-linux-aarch64.tar.gz"
+      sha256 "4fa4200b738aeeec883f6b7b61c04dd8d52239299361aa4f66571b81c97394db"
     end
     on_intel do
-      url "https://github.com/onplt/morpharch/releases/download/v2.2.0/morpharch-linux-x86_64.tar.gz"
-      sha256 "c31140aee21a2eba2e09c39d26da3e99a01a3f2bfc78473a1281cecbbb868acf"
+      url "https://github.com/onplt/morpharch/releases/download/v2.2.1/morpharch-linux-x86_64.tar.gz"
+      sha256 "bab19e3e351b223c053124c91df1981c3979e6fffd6522dface7497439cfe119"
     end
   end
 
